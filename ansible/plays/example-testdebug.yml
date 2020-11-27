@@ -1,0 +1,11 @@
+---
+# file: last-resort-testdebug.yml
+# 
+# Syntax for running a single task directly from a play. 
+# Useful for task syntax debugging (and not much else.) 
+
+- hosts: somehosts
+  tasks:
+    - debug:
+        msg: mytask
+    - shell: pwd -L >> testPwd.txt chdir=/tmp 

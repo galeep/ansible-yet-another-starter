@@ -1,0 +1,19 @@
+# This file is part of a mechanism for creating a local cache of 
+# external roles. These can be examined prior to execution, run 
+# against airgapped environments, etc.
+#
+# It feels woefully hacky outside of the specialty context that 
+# required it. This is part of why Ansible is so loose about 
+# prescriptions. I am leaving it here as a curiosity. 
+#
+# Maybe there's a better mechanism for this now -- gep 12/2020
+#
+# Add external roles (and optionally pin their versions) here. 
+#
+# Example: 
+#
+# - src: git+https://github.com/azavea/ansible-pip.git
+#   name: azavea.pip
+#   version: 'v1.1.0'
+# 
+# - src: (...) 

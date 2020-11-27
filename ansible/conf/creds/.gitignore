@@ -1,0 +1,6 @@
+# This .gitignore instructs git to ignore all files in a directory
+# except for the .gitignore file itself, and README.md, so we can  
+# document the purpose of the directory.
+*
+!.gitignore
+!README.md
