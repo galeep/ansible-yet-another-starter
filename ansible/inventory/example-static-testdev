@@ -1,0 +1,15 @@
+# example static inventory
+[ssh_bastion_host]
+localhost
+
+[foo_servers]
+localhost
+
+[foo_clients]
+localhost
+
+[bar_servers]
+localhost
+
+[baz_servers]
+localhost
