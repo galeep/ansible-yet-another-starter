@@ -6,7 +6,7 @@ Bringing you yesterday's technology... today!
 ## What is this? 
 This is the skeleton structure I used for my Ansible playbooks and administrivia in 2015. As of this writing, it's nearly 2021, but it doesn't look like the landscape has  changed all that much.
 
-Ansible is unopinionated by design, so your ansible code base will be as neat or as gnarly as you allow it to be. That doesn't mean that blank pages are fun 
+Ansible is unopinionated by design, so your ansible code base will be as neat or as gnarly as you allow it to be.
 
 For a brief period in 2015, I loved Ansible. Then I got better. 
 
