@@ -1,14 +1,26 @@
 # This file is part of a mechanism for creating a local cache of 
 # external roles. These can be examined prior to execution, run 
-# against airgapped environments, etc.
+# against airgapped environments, etc. [12/2021: this can be used
+# with ansible-galaxy :)
 #
 # It feels woefully hacky outside of the specialty context that 
 # required it. This is part of why Ansible is so loose about 
-# prescriptions. I am leaving it here as a curiosity. 
+# prescriptions. I am leaving it here as a curiosity.
 #
 # Maybe there's a better mechanism for this now -- gep 12/2020
+# ##
+# 12/2021: yes, there is! Sort of. ansible-galaxy was not
+# available to me when this was initially put together, but this
+# file can be used as an ansible-galaxy requirements.yml! Just
+# make sure ansible-galaxy uses the 'external' directory for
+# roles. This also pre-dates collections, fancy versioning, etc.
+# If you use this, use ansible-galaxy to handle role management
+# within the 'external' directory.
 #
-# Add external roles (and optionally pin their versions) here. 
+# Guess it wasn't as hacky as I thought :-)
+# ##
+#
+# Add external roles (and optionally pin their versions) here.
 #
 # Example: 
 #
